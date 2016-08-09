@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "node": true
+  },
+  "ecmaFeatures": {
+    "generators": true,
+    "restParams": true,
+    "spread": true
+  },
+  "rules": {
+    "no-console": 0
+  }
+}
