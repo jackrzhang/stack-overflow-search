@@ -4,7 +4,13 @@
   "author": "Jack R. Zhang <15jzhang@gmail.com> (http://jackrzhang.com)",
   "license": "MIT",
   "description": "A simple command-line utility for searching stack overflow questions",
-  "keywords": [],
+  "keywords": [
+    "stack overflow",
+    "search",
+    "command-line",
+    "terminal",
+    "sos"
+  ],
   "main": "src/index.js",
   "preferGlobal": true,
   "engines": {
@@ -12,10 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/__USERNAME__/__REPO_NAME__"
+    "url": "https://github.com/jackrzhang/stack-overflow-search"
   },
   "bugs": {
-    "url": "https://github.com/__USERNAME__/__REPO_NAME__/issues"
+    "url": "https://github.com/jackrzhang/stack-overflow-search/issues"
   },
   "files": [
     "*.md",
