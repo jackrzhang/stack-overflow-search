@@ -12,6 +12,7 @@ program
   .parse(process.argv);
 
 const urlBase = 'https://api.stackexchange.com/2.2/search?order=desc&sort=votes&site=stackoverflow&intitle=';
+const numResults = 5;
 
 if (program.args.length === 0) {
   program.help();
@@ -19,5 +20,5 @@ if (program.args.length === 0) {
   const keywords = program.args;
   const url = `${urlBase}${keywords}`;
 
-  getSearchResults(url);
+  getSearchResults(url, numResults);
 }
