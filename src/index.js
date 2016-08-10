@@ -9,6 +9,7 @@ program
   .version(pkg.version)
   .usage('[options] <keywords>')
   .description('A simple utility for searching Stack Overflow.')
+  .option('-l, --lucky', 'Open the first search result')
   .parse(process.argv);
 
 const urlBase = 'https://api.stackexchange.com/2.2/search?order=desc&sort=votes&site=stackoverflow&intitle=';
@@ -20,5 +21,5 @@ if (program.args.length === 0) {
   const keywords = program.args;
   const url = `${urlBase}${keywords}`;
 
-  getSearchResults(url, numResults);
+  getSearchResults(url, numResults, program.lucky);
 }
