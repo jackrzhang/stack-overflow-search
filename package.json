@@ -5,9 +5,17 @@
   "license": "MIT",
   "description": "A simple command-line utility for searching stack overflow questions",
   "keywords": [],
+  "main": "src/index.js",
+  "preferGlobal": true,
+  "engines": {
+    "node": ">= 0.8.0"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackrzhang/stack-overflow-search"
+    "url": "https://github.com/__USERNAME__/__REPO_NAME__"
+  },
+  "bugs": {
+    "url": "https://github.com/__USERNAME__/__REPO_NAME__/issues"
   },
   "files": [
     "*.md",
