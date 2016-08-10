@@ -27,7 +27,7 @@
     "sos": "build/index.js"
   },
   "scripts": {
-    "build": "mkdir -p build && ./node_modules/.bin/babel ./src/index.js --presets es2015,stage-0 --out-file ./build/index.js",
+    "build": "mkdir -p build && ./node_modules/.bin/babel ./src --presets es2015,stage-0 --out-dir ./build",
     "prepublish": "npm run build",
     "lint": "./node_modules/.bin/eslint src",
     "test": "echo \"Error: no test specified\" && exit 0"
