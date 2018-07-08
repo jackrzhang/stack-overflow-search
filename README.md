@@ -1,6 +1,5 @@
 # stack-overflow-search
 [![npm](https://img.shields.io/npm/v/stack-overflow-search.svg)](https://www.npmjs.com/package/stack-overflow-search)
-[![dependencies Status](https://david-dm.org/jackrzhang/stack-overflow-search/status.svg)](https://david-dm.org/jackrzhang/stack-overflow-search)
 
 A simple command-line utility for searching Stack Overflow.
 
