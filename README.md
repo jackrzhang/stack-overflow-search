@@ -2,7 +2,7 @@
 [![npm](https://img.shields.io/npm/v/stack-overflow-search.svg)](https://www.npmjs.com/package/stack-overflow-search)
 ![npm](https://img.shields.io/npm/dt/stack-overflow-search.svg)
 
-A simple command-line utility for searching Stack Overflow.
+A simple command-line utility for searching the highest-scoring questions on Stack Overflow.
 
 ### Usage
 By default, the first 4 search results are output. Use the `-n` option to adjust this number.
