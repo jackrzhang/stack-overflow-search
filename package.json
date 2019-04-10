@@ -51,6 +51,6 @@
     "commander": "^2.9.0",
     "moment": "^2.24.0",
     "opn": "^4.0.2",
-    "superagent": ">=3.7.0"
+    "superagent": "^3.7.0"
   }
 }
